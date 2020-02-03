@@ -1,2 +1,3 @@
-# responsive-html-email-template
-Responsive HTML eMail Template
+# FREE RESPONSIVE CUSTOMIZABLE HTML TEMPLATE
+
+Live preview here -> [a link](https://mihneamanolache.github.io/responsive-html-email-template/)
