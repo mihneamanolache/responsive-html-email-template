@@ -1,3 +1,3 @@
 # FREE RESPONSIVE CUSTOMIZABLE HTML TEMPLATE
 
-Live preview here -> [a link](https://mihneamanolache.github.io/responsive-html-email-template/)
+Live preview -> [HERE](https://mihneamanolache.github.io/responsive-html-email-template/)
