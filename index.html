@@ -9,7 +9,7 @@
 
 <style>
 
-    /* --- Body --- */
+    /* --- BODY --- */
 
     html, body
     {
@@ -19,7 +19,7 @@
         width: 100%;
     }
 
-    /* --- Navigation --- */
+    /* --- NAVIGATION --- */
 
     .pre-header
     {
@@ -35,7 +35,7 @@
         margin: auto;
     }
 
-    /* --- Central area --- */
+    /* --- CENTRAL MESSAGE AREA --- */
 
     .central-div 
     {
@@ -128,7 +128,7 @@
         border-color: #3c9795;
     }
 
-    /* --- footer --- */
+    /* --- FOOTER --- */
 
     footer
     {
@@ -155,6 +155,8 @@
         color: #4bbfbc;
         text-decoration: none;
     }
+
+    /* --- RESPONSIVE --- */
 
     @media only screen and (max-width: 600px) 
     {
@@ -185,7 +187,12 @@
 
 </head>
 <body>
-    
+
+<!-- GRAY NAVIGATION AREA -->
+
+<!------------------------------
+        CHANGE LOGO 
+-------------------------------> 
     <nav class="pre-header">
         <div class="pre-header-img"></div>
             <img src="Asstets/Logo.png" alt="i-Say" height="40px">
@@ -193,40 +200,79 @@
        
     </nav>
 
+<!-- CENTRAL MESSAGE AREA -->
+
     <div class="central-div">
+
+<!------------------------------
+        UPDATE VACATION.PSD IN PHOTOSHOP
+        AND SAVE AS 'Vacation.png' IN ASSETS FOLDER 
+-------------------------------> 
 
         <div id="upper-header">
             <img src="Asstets/Vacation copy.png" alt="Win your dream vacation">
         </div>
 
+<!------------------------------
+        MESSAGE HEADER 
+-------------------------------> 
+
         <div id="intro"> Dear Customer, 
 
             <h1> "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
 
+<!------------------------------
+        CENTRAL IMAGE
+        // IF REPLACED, CHANGE TO <imge src="Asstets/yourImgName.png" ... >
+-------------------------------> 
+
             <img src="Asstets/Vacation.png" alt="Vacation" class="responsive-img">
+
+<!------------------------------
+        MESSAGE TEXT 
+-------------------------------> 
 
             <div id="body-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>
                 <b>Vehicula ipsum a arcu cursus vitae congue.</b> Ut consequat semper viverra nam libero justo laoreet.
             </div>
 
-            <button type="button" class="btn-success end-button">
+<!------------------------------
+        CHANGE ONCLICK TARGET TO YOUR LINK 
+-------------------------------> 
+
+            <button type="button" class="btn-success end-button" onclick="window.location.href = 'https://github.com/mihneamanolache/responsive-html-email-template';">
                 Your button
             </button>
         </div>
     </div>
 
+<!-- FOOTER AREA -->
+
     <footer>
         <div class="footer">
-            <a href="https://mihneamanolache.github.io/"> Privacy </a> | <a href="https://mihneamanolache.github.io/"> Contact </a>
+
+<!------------------------------
+        CHANGE LINKS FOR PRIVACY AND CONTACT
+-------------------------------> 
+
+            <a href="https://mihneamanolache.github.io/responsive-html-email-template"> Privacy </a> | <a href="https://mihneamanolache.github.io/responsive-html-email-template"> Contact </a>
         </div>
-    
+
+<!------------------------------
+        UPDATE LOGO FILE IN THE ASSETS FOLDER
+------------------------------->   
+
         <div>
             <img src="Asstets/Logo.png" alt="ipsos" height="30px"> <br>
-            &copy; Your Company Ltd. <br>
+
+<!------------------------------
+        UPDATE COMPANY DETAILS
+------------------------------->   
+         
+            &copy; Your Company <br>
             Your Address, City, Country
         </div>
     </footer>
-    
 </body>
 </html>
